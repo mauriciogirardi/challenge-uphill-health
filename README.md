@@ -19,6 +19,7 @@ Develop a web-based GitHub dashboard to show the most popular GitHub users, the 
 ##### Bonus Task
 
 - [ ] Write a test for the 3 most popular github user resources.
+- [x] Deploy the application.
 - [x] Instead of redirecting the user to the github.com page, after clicking on "Open profile", it opens a new page with the user's details and his top 3 repositories.
 
 ##### Design
@@ -28,8 +29,6 @@ Develop a web-based GitHub dashboard to show the most popular GitHub users, the 
 </div>
 
 ##### How to run this project
-
-[Github Repository](https://github.com/mauriciogirardi/challenge-uphill-health)
 
 ```bash
   # clone the project
