@@ -29,9 +29,25 @@ Develop a web-based GitHub dashboard to show the most popular GitHub users, the 
 
 ##### How to run this project
 
+- how to generate a token on github
+
+  - Login to your github account.
+  - Access **Profile** > **Settings**
+  - Access **Developer settings**
+  - <img src=".github/pass1.png" width="500px">
+  - add repo and user
+
+    - <img src=".github/pass2.png" width="300px">
+    - <img src=".github/pass3.png" width="300px">
+
+  - click on the **Generate Token** button
+  - copy token and add .env file
+
 ```bash
   # clone the project
   git clone https://github.com/mauriciogirardi/challenge-uphill-health.git
+  # In the .env file add the value of the token generated on Github
+  VITE_GITHUB_ACCESS_TOKEN=.....
   # Open the project
   cd challenge-uphill-health
   # Install
