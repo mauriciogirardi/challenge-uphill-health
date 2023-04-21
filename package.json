@@ -1,0 +1,36 @@
+{
+  "name": "challenge-uphill-health",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.12",
+    "@stitches/react": "^1.2.8",
+    "datejs": "^1.0.0-rc3",
+    "dayjs": "^1.11.7",
+    "graphql": "^16.6.0",
+    "phosphor-react": "^1.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.10.0",
+    "react-toastify": "^9.1.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@types/datejs": "^0.0.33",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "jsdom": "^21.1.1",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0",
+    "vitest": "^0.30.1"
+  }
+}
