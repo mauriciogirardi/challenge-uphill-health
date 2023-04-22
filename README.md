@@ -6,6 +6,10 @@
 
 Develop a web-based GitHub dashboard to show the most popular GitHub users, the most active GitHub users and their popular repositories.
 
+##### Project link in production
+
+[Dash Github](https://challenge-uphill-health.vercel.app/)
+
 ##### To Do
 
 - [x] I should show the 3 most popular github users - the ones created in the last month and have the most followers.
@@ -18,6 +22,7 @@ Develop a web-based GitHub dashboard to show the most popular GitHub users, the 
 
 ##### Bonus Task
 
+- [x] Deploy the application
 - [x] Write a test for the 3 most popular github user resources.
 - [x] Instead of redirecting the user to the github.com page, after clicking on "Open profile", it opens a new page with the user's details and his top 3 repositories.
 
