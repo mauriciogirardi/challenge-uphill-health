@@ -23,8 +23,12 @@ export function InputSearch({ error, ...rest }: InputSearchProps) {
   };
 
   return (
-    <InputSearchContainer focus={isFocused} error={error}>
-      <MagnifyingGlass weight="bold" size={18} />
+    <InputSearchContainer
+      data-testid="container-search"
+      focus={isFocused}
+      error={error}
+    >
+      <MagnifyingGlass data-testid="icon-input" weight="bold" size={18} />
       <input
         type="text"
         placeholder="Search"

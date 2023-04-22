@@ -8,7 +8,7 @@ interface NotFoundContentProps {
 export function NotFoundContent({ message }: NotFoundContentProps) {
   return (
     <MessageNotFound>
-      <Warning size={32} />
+      <Warning data-testid="svg-warning" size={32} />
       {message}
     </MessageNotFound>
   );

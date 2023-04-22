@@ -7,12 +7,19 @@ type ColorTypes = keyof typeof colors;
 interface LoadingProps {
   size?: number;
   color?: ColorTypes;
+  title?: string;
 }
 
-export function Loading({ size = 24, color = "gray400" }: LoadingProps) {
+export function Loading({ size = 24, color = "gray400", title }: LoadingProps) {
   return (
     <LoadingContainer>
-      <CircleNotch size={size} color={colors[color]} weight="bold" />
+      <CircleNotch
+        data-testid="icon-loading"
+        size={size}
+        color={colors[color]}
+        weight="bold"
+      />
+      <p>{title}</p>
     </LoadingContainer>
   );
 }

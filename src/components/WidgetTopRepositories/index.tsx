@@ -22,7 +22,7 @@ export function WidgetTopRepositories() {
         <FlexCard>
           {loading && (
             <ContainerLoading>
-              <Loading size={36} />
+              <Loading size={36} title="Loading" />
             </ContainerLoading>
           )}
 

@@ -16,7 +16,7 @@ interface UseGetTopRepositoriesProps {
   searchValue?: string;
 }
 
-const GET_REPOSITORIES = gql`
+export const GET_REPOSITORIES = gql`
   query getUsers($query: String!) {
     search(query: $query, type: REPOSITORY, first: 4) {
       edges {
@@ -44,7 +44,7 @@ export const useGetTopRepositories = ({
   const { data, loading, error } = useQuery<RepositoriesData>(
     GET_REPOSITORIES,
     {
-      variables: { query: query },
+      variables: { query },
     }
   );
 
